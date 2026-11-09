@@ -38,7 +38,7 @@ The core pipeline doesn't depend on the topic – what's domain-specific are the
 </p>
 
 ```mermaid
-flowchart LR
+flowchart TD
     S["Event, sports & article pages"] --> W["Python scraper worker<br/>crawl4ai"]
     W --> B["Node.js backend<br/>article pipeline · REST API · job runner<br/>rule-based fact check"]
     B <--> DB[("MySQL")]
