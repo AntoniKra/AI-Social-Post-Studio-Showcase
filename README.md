@@ -92,7 +92,7 @@ flowchart TD
 As the main developer, I took the project from an early prototype to a complete editorial workflow deployed on the company server.
 
 - **Iterative delivery** – small, numbered stages, each closed with tests and a descriptive commit.
-- **Multi-agent workflow** – one coding agent at a time (Claude Code, Codex or Cursor), an audit by a different model, then my review of the fresh diff and a verdict before every commit.
+- **Code review** – every change reviewed by me before it is committed.
 - **Testing** – ~2,400 automated tests (Node + Flutter) plus Playwright smoke scripts.
 
 ## 🔒 Source code
